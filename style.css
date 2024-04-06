@@ -1,0 +1,238 @@
+/*  page background */
+
+body {
+    background-image: url('image/Friedman-Elky-Fresh-Fruit-and-Yogurt-Parfaits-with-Crunchy-Granola.jpg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center center !important;
+}
+
+body.subpage-1 {
+    background-image: url('image/Tropical-Smoothie-Cafe-Coming-to-Summerhill-Photo-1.png') !important;
+    
+}
+
+body.subpage-2 {
+    background-image: url('image/yorgurt.jpeg') !important;
+    
+}
+
+body.subpage-3 {
+    background-image: url('image/bowl.jpg') !important;
+   
+}
+
+/*  navbar setting */
+
+.navbar-nav .nav-link {
+    color: rgb(25, 17, 1) !important; /* use !importantto cover Bootstrap's default setting' */
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #f78fb3 !important; 
+}
+
+.search-container {
+    display: flex;
+    align-items: center; /* 确保输入框和按钮垂直居中对齐 */
+    justify-content: flex-end; /* 将输入框和按钮整体右对齐 */
+    padding-right: 0px; /* 容器右侧内边距，确保有间距 */
+}
+
+.search-input,
+.search-btn {
+    margin-top: 20px; /* 上边距，确保与容器顶部有一定距离 */
+}
+
+.search-input {
+    margin-right: 10px; /* 输入框和按钮之间的间距 */
+}
+
+.search-btn {
+    background-color: #fff9fc; 
+    border-color: #f78fb3; 
+    color: #f78fb3; /* 设置文字颜色为白色以提高对比度和可读性 */
+}
+
+.search-btn:hover {
+    background-color: #f78fb3; 
+    border-color: #f78fb3; 
+}
+
+.navbar-brand {
+    font-size: 40px; /* font size */
+    font-family: 'Poppins', sans-serif; /* 可选，如果你想改变字体 */
+  }
+
+  .pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .single-day-regular {
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.navbar-brand, .nav-link {
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    font-family: 'Single day', sans-serif;
+}
+
+.navbar-brand {
+    margin-right: 120px; /* right margin */
+}
+
+.nav-link {
+    margin-right: 60px; 
+}
+
+.nav-link {
+    padding-top: 25px; 
+    padding-bottom: 3px; 
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(255, 182, 193, 0.5); 
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.85); /* transparency */
+}
+.card .btn {
+    background-color: pink; 
+    border-color: pink; 
+    color: white; 
+}
+
+.card .btn:hover {
+    background-color: #f78fb3; 
+    border-color: #f78fb3; 
+}
+
+body, .content { /* 确保.content或最近的父容器使用了position: relative; */
+    position: relative;
+    min-height: 100vh; /* 确保内容足够填满视口高度 */
+}
+
+.btn-primary:hover {
+    background-color: #f599c7 !important; 
+    border-color: #f599c7 !important;
+}
+
+.view-menu-btn {
+    font-size: 22px
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body .btn {
+    margin-top: auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color:antiquewhite
+}
+
+.highlight-index {
+    color: #f19ac9; 
+    text-align: center; 
+    font-size: 62px; 
+    font-weight: bold; 
+    margin-top: 45px
+}
+
+.highlight {
+    color: #ec925e; 
+    text-align: center; 
+    font-size: 62px; 
+    font-weight: bold; 
+    margin-top: 35px
+}
+
+.bodyhighlight {
+    color: #ec925e; 
+    text-align: center; 
+    font-size: 36px; 
+    font-weight: bold; 
+    margin-top: 50px
+}
+
+.flavor-card {
+    background-color: #fefde1; 
+    border: 1px solid #ddd; 
+    
+}
+
+.flavor-card .card-title {
+    color: #ffcb5a; 
+    font-size: 24px; 
+}
+
+.flavor-card .btn {
+    background-color: #ffbd4c; 
+    border-color: #fff2f8; 
+   
+}
+
+.btn-primary-f:hover {
+    background-color: #f5d899 !important; 
+    border-color: #f5d899 !important;
+}
+
+.yogurt-flavor-card {
+    background-color: #f4f3e6; 
+    border: 1px solid #ddd; 
+  
+}
+
+.yogurt-flavor-card .card-title {
+    color: #918d84; 
+    font-size: 24px; 
+}
+
+.yogurt-flavor-card .btn {
+    background-color: #8a8a7b; 
+    border-color: #fff2f8;
+    
+}
+
+.btn-primary-y:hover {
+    background-color: #a2a28f !important; 
+    border-color: #a2a28f !important;
+}
+
+.bowl-flavor-card {
+    background-color: #eaf2ec; 
+    border: 1px solid #eaf2ec; 
+   
+}
+
+.bowl-flavor-card .card-title {
+    color: #8ead90; 
+    font-size: 24px; 
+}
+
+.bowl-flavor-card .btn {
+    background-color: #b5d4be; 
+    border-color: #fff2f8; 
+    
+}
+
+.btn-primary-b:hover {
+    background-color: #9cad9b !important; 
+    border-color: #9cad9b !important;
+}
+
